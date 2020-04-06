@@ -9,7 +9,9 @@ cache:
 
 install:
     - npm install
-    - npm install enzyme
+    - npm install --save-dev enzyme
+    npm install --save-dev enzyme-adapter-react-16
+    
 script:
   - npm test
   - npm run build
