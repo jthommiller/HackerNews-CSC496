@@ -15,5 +15,5 @@ it('renders learn react link', () => {
 
 it('renders image', () => {
   const wrapper = shallow(<App/>);
-  expect(wrapper.find('img').props('src')).toEqual(logo);
+  expect(wrapper.find('img').prop("src")).toEqual(logo);
 })
